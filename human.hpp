@@ -1,2 +1,9 @@
+#pragma once
 
-class Human{};
+class Human{
+public:
+    void display();
+private:
+    int a; 
+
+};

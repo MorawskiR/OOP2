@@ -1,8 +1,11 @@
-#include "human.hpp"
+
+
 #include <string>
+#include <iostream>
+#include "human.hpp"
 
-class Human{
-private: 
-    std::string name_; 
 
-};
+void Human::display()
+{
+    std::cout<<"aa";
+}
