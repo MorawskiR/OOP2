@@ -5,7 +5,15 @@
 #include "human.hpp"
 
 
-void Human::display()
+Human::Human(){
+    name_ = "";
+    age_ = 0;
+}
+// Human::Human(std::string name, size_t age){
+//     name_ = name;
+//     age_ = age;
+// }
+void Human::Display()
 {
-    std::cout<<"aa";
+    std::cout<<"name: "<<name_<<", "<<"age: "<<age_<<"\n";
 }
