@@ -1,9 +1,11 @@
 #pragma once
+#include <string>
 
 class Human{
 public:
-    void display();
+    Human();
 private:
-    int a; 
+    std::string name_;
+    size_t age_;
 
 };

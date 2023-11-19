@@ -3,5 +3,5 @@
 int main()
 {
     Human h;
-    h.display();
+   
 }
