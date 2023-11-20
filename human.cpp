@@ -13,7 +13,14 @@ Human::Human(){
 //     name_ = name;
 //     age_ = age;
 // }
-void Human::Display()
-{
-    std::cout<<"name: "<<name_<<", "<<"age: "<<age_<<"\n";
+
+void Human::setName(std::string name){
+    name_ = name;
 }
+void Human::setAge(size_t age)
+{
+    if(age > 0 ){ age_ = age ;} //nietrywialne przypisanie
+}
+std::string Human::getName(){return name_;};
+size_t Human::getAge() {return age_;};
+

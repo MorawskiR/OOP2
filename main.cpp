@@ -3,13 +3,18 @@
 int main()
 {
     Human h;
-    h.Display();
+    h.getName();
+    h.getAge();
 
     Human adam{"Adam", 25};
-    adam.Display();
+    adam.getName();
+    adam.getAge();
 
-    Human Ewa{"Ewa"};
-    Ewa.Display();
+    // Human Ewa{"Ewa"}; 
+    // Ewa.Display();
 
-    
+    Human Pan;
+    Pan.setName("Henry");
+    Pan.setAge(33);
+   
 }
