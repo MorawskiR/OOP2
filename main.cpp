@@ -1,14 +1,10 @@
 
 #include "human.hpp"
 int main()
-{
-    Human h;
-    h.getName();
-    h.getAge();
 
-    Human adam{"Adam", 25};
-    adam.getName();
-    adam.getAge();
+    // Human adam{"Adam", 25};
+    // adam.getName();
+    // adam.getAge();
 
     // Human Ewa{"Ewa"}; 
     // Ewa.Display();
@@ -17,4 +13,6 @@ int main()
     Pan.setName("Henry");
     Pan.setAge(33);
    
-}
+}  // Human adam{"Adam", 25};
+    // adam.getName();
+    // adam.getAge();mdcoid d g

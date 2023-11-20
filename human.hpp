@@ -22,6 +22,8 @@ public:
     //gettery
     std::string getName() ;
     size_t getAge();
+
+    void display();
 private:
     std::string name_;
     size_t age_;

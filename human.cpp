@@ -24,3 +24,7 @@ void Human::setAge(size_t age)
 std::string Human::getName(){return name_;};
 size_t Human::getAge() {return age_;};
 
+void Human::display()
+{
+    std::cout<<"Name:"<<getName()<<", Age: "<<getAge()<<"\n";
+}
