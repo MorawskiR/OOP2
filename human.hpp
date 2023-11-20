@@ -10,7 +10,7 @@ public:
     : name_(name), age_(age) {}
     
     Human(std::string name)
-    :Human(name, 50){}
+    :Human(name, 50){} // lista inicjalizacyjna
 
     void Display();
 private:
