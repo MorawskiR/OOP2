@@ -1,6 +1,6 @@
 
 #include "human.hpp"
-int main()
+int main(){
 
     // Human adam{"Adam", 25};
     // adam.getName();
