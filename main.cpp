@@ -1,15 +1,18 @@
 
 #include "human.hpp"
 int main()
-{
-    Human h;
-    h.Display();
 
-    Human adam{"Adam", 25};
-    adam.Display();
+    // Human adam{"Adam", 25};
+    // adam.getName();
+    // adam.getAge();
 
-    Human Ewa{"Ewa"};
-    Ewa.Display();
+    // Human Ewa{"Ewa"}; 
+    // Ewa.Display();
 
-    
-}
+    Human Pan;
+    Pan.setName("Henry");
+    Pan.setAge(33);
+   
+}  // Human adam{"Adam", 25};
+    // adam.getName();
+    // adam.getAge();mdcoid d g
