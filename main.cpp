@@ -1,18 +1,14 @@
+#include "mammal.hpp"
+#include <string>
+#include "malpa.hpp"
+#include <iostream>
 
-#include "human.hpp"
-int main()
+int main(){
 
-    // Human adam{"Adam", 25};
-    // adam.getName();
-    // adam.getAge();
+mammal m("name");
 
-    // Human Ewa{"Ewa"}; 
-    // Ewa.Display();
 
-    Human Pan;
-    Pan.setName("Henry");
-    Pan.setAge(33);
-   
-}  // Human adam{"Adam", 25};
-    // adam.getName();
-    // adam.getAge();mdcoid d g
+malpa m2;
+m2.display();
+
+}
