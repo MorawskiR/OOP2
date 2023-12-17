@@ -5,7 +5,6 @@
 
 int main(){
 
-mammal m("name");
 
 
 malpa m2;

@@ -1,9 +1,9 @@
 #include <string>
 #pragma once
 class mammal{
-    std::string name_;
+    
 public:
+    std::string name_;
     mammal() {};
-    mammal(std::string name);
     void display();    
 };

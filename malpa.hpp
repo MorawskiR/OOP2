@@ -3,10 +3,6 @@
 class malpa : public mammal
 {
     size_t age; 
-   
-    public:
-    malpa()
-    {
-        age = 10;
-    };
+public:
+    malpa();
 };
